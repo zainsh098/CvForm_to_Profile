@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic4"
+
+    tools:context=".launcher">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="14dp"
+        android:background="#C6121010"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="4dp"
+        android:text="Skill"
+        android:textColor="#F4F1F8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintWidth_percent=".7" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="17dp"
+        android:background="#C6121010"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="4dp"
+        android:text="Final Degree"
+        android:textColor="#F4F1F8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintWidth_percent=".7" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="32dp"
+        android:background="#C6121010"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="4dp"
+        android:text="Name"
+        android:textColor="#F4F1F8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".7" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="21dp"
+        android:background="#C6121010"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="4dp"
+        android:text="Email"
+        android:textColor="#F4F1F8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namesh"
+        app:layout_constraintWidth_percent=".7" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="13dp"
+        android:background="#C6121010"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="4dp"
+        android:text="Contact No"
+        android:textColor="#F4F1F8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintWidth_percent=".7" />
+
+    <EditText
+        android:id="@+id/namesh"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+        android:background="@android:drawable/spinner_background"
+        android:backgroundTint="#DCEAE9E3"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintWidth_percent=".7" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+        android:background="@android:drawable/spinner_background"
+        android:backgroundTint="#DCEAE9E3"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintWidth_percent=".7" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+        android:background="@android:drawable/spinner_background"
+        android:backgroundTint="#DCEAE9E3"
+        android:ems="10"
+
+        android:inputType=""
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintWidth_percent=".7" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:drawable/spinner_background"
+        android:backgroundTint="#DCEAE9E3"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintWidth_percent=".7" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="19dp"
+        android:background="#C6121010"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="4dp"
+        android:text="Description"
+        android:textColor="#F4F1F8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
+        app:layout_constraintWidth_percent=".7" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+
+        android:background="@android:drawable/spinner_background"
+        android:backgroundTint="#DCEAE9E3"
+        android:ems="10"
+        android:hint=" Degree"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintWidth_percent=".7" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="78dp"
+        android:background="@android:drawable/spinner_background"
+        android:backgroundTint="#DCEAE9E3"
+        android:ems="10"
+        android:hint=" Skills"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintWidth_percent=".7" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="52dp"
+        android:background="@android:drawable/spinner_background"
+        android:backgroundTint="#C6121010"
+        android:text="Send "
+        android:textColor="#FBF7F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
+        app:layout_constraintWidth_percent=".3" />
+
+
+</android.support.constraint.ConstraintLayout>
